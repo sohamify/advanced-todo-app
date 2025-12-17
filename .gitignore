@@ -1,0 +1,103 @@
+# Node.js / Frontend (React + TypeScript)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript cache
+frontend/.tsbuildinfo
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Dependency directories (if using pnpm workspaces)
+.pnpm-store/
+
+# Go Backend
+backend/bin/
+backend/pkg/
+backend/go.sum      # Optional: keep if you want reproducible builds, but many ignore it
+backend/tmp/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+
+# Go module download cache
+backend/go/pkg/mod/
+
+# Go workspace (if using Go workspaces)
+go.work
+go.work.sum
+
+# Test binary, built with `go test -c`
+*.test
+
+# Local MongoDB data (if ever running locally with volume)
+data/
+mongodump/
+
+# Docker (if you add Docker later)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.cache
+.cache/
+.temp/
+
+# Security
+*.pem
+*.key
+*.crt
+
+# Project-specific
+# If you have any local scripts or binaries
+scripts/local-*
+local-*
+
+# End of file
